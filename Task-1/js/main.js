@@ -24,6 +24,14 @@ Konsola çıxaran belə proqram yazın:
 - Bu ədədin beşinci dərəcə qüvvətə qaldırılmış vəziyyətini.
 - 3-ə bölünmədən qalan bu ədədin qalığını. */
 
+const num = prompt("İki rəqəmli ədədi daxil edin:");
+const fifthPower = num ** 5;
+const remainder = num % 3;
+console.log(
+  num + " ədədin beşinci dərəcə qüvvətə qaldırılmış vəziyyəti: " + fifthPower
+);
+console.log(num + " ədədinin 3-ə bölünmədən qalanı: " + remainder);
+
 /* Konsola bu növ mesaj çıxarın “Sizin adınız [firstName] [lastName]. 
 Tanışlığımıza çox şadam!”
 firstName dəyişənində istifadəçinin adı, 
@@ -43,4 +51,4 @@ konsola “Sizi bir daha görməyimizə şadıq, [firstName] [lastName]”.
 firstName dəyişənində istifadəçinin adı, lastName — dəyişənində isə soyadı saxlanır. */
 
 console.log(`Sizi bir daha görməyimizə şadıq ${firstName} ${lastName}`);
-alert(`Sizi bir daha görməyimizə şadıq ${firstName} ${lastName}`);
+// alert(`Sizi bir daha görməyimizə şadıq ${firstName} ${lastName}`);
