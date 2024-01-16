@@ -52,3 +52,10 @@ firstName dəyişənində istifadəçinin adı, lastName — dəyişənində is�
 
 console.log(`Sizi bir daha görməyimizə şadıq ${firstName} ${lastName}`);
 // alert(`Sizi bir daha görməyimizə şadıq ${firstName} ${lastName}`);
+
+let a = Number("123");
+let b = Number("321");
+
+let c = a + b;
+
+console.log(c);
