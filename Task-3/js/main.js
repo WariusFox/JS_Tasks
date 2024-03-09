@@ -30,3 +30,11 @@
 // } else {
 //   alert(number + " tək rəqəmdir.");
 // }
+
+// let number = parseInt(prompt("Nömrə daxil edin: "));
+
+// if (number % 2 === 0) {
+//   alert(number + " cüt ədəddir.");
+// } else {
+//   alert(number + " tək rəqəmdir.");
+// }
